@@ -5,6 +5,8 @@ spring:
     redis:
       host: ${ACMA_CACHE_HOST:localhost}
       port: ${ACMA_CACHE_PORT:6379}
+      username: username
+      password: password
       
   security:
     oauth2:
